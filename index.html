@@ -38,8 +38,8 @@
 	<script>
 	   function getShortTime(){
 		   document.getElementById("ShortTime").innerHTML = Date();
+		   setTimeout(getShortTime, 1000);
 		}
-		setInterval(getShortTime, 1000);
 	</script>		
 	</div>	
 	</div>

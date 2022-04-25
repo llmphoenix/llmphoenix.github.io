@@ -30,7 +30,7 @@
 	<p id = 'ShortTime'> </p>
 	<script>
 	   function getShortTime(){
-		   var now = Date()
+		   var now = Date();
 		   document.getElementById("ShortTime").innerHTML =  now.getFullYear() + "/" + now.getMonth()+1;
 		}
 		setInterval(getShortTime, 1000);

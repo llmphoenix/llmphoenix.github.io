@@ -19,19 +19,20 @@
 	</head>
 	<body>
 	<div class="content">
-	
+	<p id = 'TimeShow'> </p>
+	<script>
+		/* Get Time.*/
+	   function getTime(){
+		   document.getElementById("TimeShow").innerHTML =  Date();
+		}
+		setInterval(getTime, 1000);
+	</script>
 	<p id = 'ShortTime'> </p>
 	<script>
 	   function getShortTime(){
 		   var now = Date()
-		   var year = now.getFullYear();
-		   var month = now.getMonth() + 1;
-		   var day = now.getDate();
-		   var hour = now.getHours();
-		   var min = now.getMinutes();
-		   var sec = now.getSeconds();
-		   document.getElementById("ShortTime").innerHTML =  year + "/" + month + "/" + day + "/" + hour + ":" + min + ":" + sec;
-		   setTimeout(getShortTime, 1000)
+		   document.getElementById("ShortTime").innerHTML =  now.getFullYear() + "/" + now.getMonth()+1;
+		   setTimeout(getShortTime, 1000);
 		}
 	</script>		
 	</div>	

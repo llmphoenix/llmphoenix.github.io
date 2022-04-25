@@ -32,8 +32,8 @@
 	   function getShortTime(){
 		   var now = Date()
 		   document.getElementById("ShortTime").innerHTML =  now.getFullYear() + "/" + now.getMonth()+1;
-		   setTimeout(getShortTime, 1000);
 		}
+		setInterval(getShortTime, 1000);
 	</script>		
 	</div>	
 		

@@ -19,6 +19,16 @@
 	</head>
 	<body>
 	<div class="container">
+	<p id = 'TimeShow'> </p>
+	<script>
+	   function getTime(){
+		   document.getElementById("TimeShow").innerHTML =  Date();
+		}
+		setInterval(getTime, 1000)
+	</script>	
+	</div>	
+		
+	<div class="container">
 	<div>
 	<span class="title">
 	Phoenix
@@ -35,6 +45,6 @@
 	Apk DownloadTest-3
 	</p>
 	</div>
-	<div>
+	</div>
 	</body>
 </html>

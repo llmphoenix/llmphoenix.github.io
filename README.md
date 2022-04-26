@@ -1,3 +1,9 @@
+##说明
+###1、【项目名】/【项目名】.github.io
+###2、必须master
+###3、setting, gitpage页签
+###4、save
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/llmphoenix/llmphoenix.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.

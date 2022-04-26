@@ -1,8 +1,8 @@
-##说明
-###1、【项目名】/【项目名】.github.io
-###2、必须master
-###3、setting, gitpage页签
-###4、save
+## 说明
+### 1、【项目名】/【项目名】.github.io
+### 2、必须master
+### 3、setting, gitpage页签
+### 4、save
 
 ## Welcome to GitHub Pages
 

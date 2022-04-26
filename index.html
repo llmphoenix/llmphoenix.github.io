@@ -47,15 +47,20 @@
 		}
 		 
 		function f1(){
-		  alert("太好了，晚上一起吃饭看电影！！！") 
+		  if(confirm("太好了，晚上一起吃饭呢还是看电影。"))
+		  {
+		  	alert("吃饭，然后！！！") 
+		  }
+		  else
+		  {
+		  	alert("看电影， 然后！！！") 
+		  }
+		  /*var answer = prompt("太好了，晚上一起吃饭呢还是看电影。");
+		 alert("太好了，晚上一起吃饭呢还是看电影。");*/	
 		} 
 		 
 		var flag=1;
 		function f(){
-		  /* showtip. */	
-		  showtip('这不是你的真心话。');
-		  
-		  /* move  */
 		  var Bn = document.getElementById('Bn');
 		  var aWidth= document.body.clientWidth || document.documentElement.clientWidth;
 		  var aHeight= document.body.clientHeight || document.documentElement.clientHeight;
@@ -88,10 +93,10 @@
 	<script type="text/javascript" src="js/phoenixlib.js">
   	</script>		
 	<div id="By" style="position:absolute; left:285px; top:235px;">
-	  <input type="button" value=" 是的！ " onclick="f1()">
+	  <input type="button" value=" 是的！ " onmousemove="showtip('I Love You!')" onmouseout="hidetip()" onclick="f1()">
 	</div>
 	<div id="Bn" style="position:absolute; left:360px; top:235px;">
-	  <input type="button" value=" 喜欢个锤子！ " onmouseover="showtip("是不是点错了？")" onmousemove="f()" onmouseout="showtip("点不着！！")" onclick="f2()">
+	  <input type="button" value=" 喜欢个锤子！ " onmouseover="f()" onclick="f2()">
 	</div>		
 	</div>	
 	</div>

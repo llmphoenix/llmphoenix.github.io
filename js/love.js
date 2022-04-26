@@ -1,5 +1,5 @@
 const words = [
-    '爱', 'Love', 'Amour', 'Liebe', 'Amore',
+    '愛', '爱', 'Love', 'Amour', 'Liebe', 'Amore',
     'Amor', 'Любовь', 'الحب', 'प्यार', 'Cinta',
     'Αγάπη', '사랑', 'Liefde', 'Dashuri', 'Каханне',
     'Ljubav', 'Láska', 'Armastus', 'Mahal', 'אהבה', 

@@ -2,7 +2,7 @@
 ### 1、【项目名】/【项目名】.github.io
 ### 2、必须master
 ### 3、setting, gitpage页签
-### 4、save
+### 4、save, Actions动态构建Build
 
 ## Welcome to GitHub Pages
 

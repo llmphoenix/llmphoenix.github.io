@@ -30,14 +30,7 @@
 	<script>
 		/* Get Time.*/
 	   function getTime(){
-		   var now = Date()
-		   var year = now.getFullYear();
-		   var month = now.getMonth() + 1;
-		   var day = now.getDate();
-		   var hour = now.getHours();
-		   var min = now.getMinutes();
-		   var sec = now.getSeconds();
-		   document.getElementById("TimeShow").innerHTML =  year + "/" + month + "/" + day + "/" + hour + ":" + min + ":" + sec;
+		   document.getElementById("TimeShow").innerHTML =  new Date().format("yyyy年MM月dd日hh小时mm分ss秒");;
 		}
 		setInterval(getTime, 1000);
 	</script>		
